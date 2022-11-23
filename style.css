@@ -28,3 +28,27 @@ body{
     color: #666;
 }
 
+#opercoes{
+    text-align: right;
+}
+
+#operacao_anterior{
+    color: #777;
+    padding: .2em;
+    overflow-wrap: break-word;
+    min-height: 1.6em;
+}
+
+#operacao_atual{
+    min-height: 1.6em;
+    font-size: 3em;
+    font-weight: 700;
+    padding: .2em;
+    overflow-wrap: break-word;
+}
+
+#conteiner_botoes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3px;
+}
