@@ -52,3 +52,30 @@ body{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 3px;
 }
+
+#conteiner_botoes button{
+    border: 1px solid transparent;
+    border-radius: 0;
+    height: 4em;
+    font-size: 1.2em;
+    background-color: #dbdbdb; 
+    cursor: pointer;
+}
+
+#conteiner_botoes .numero{
+    background-color: #f3f3f3;
+}
+
+#conteiner_botoes button:hover{
+    background-color: #bababa;
+    border-color: #999;
+} 
+
+#conteiner_botoes #igual_btn{
+    grid-column: span 2;
+    background-color: #75a5cb;
+}
+
+#conteiner_botoes #igual_btn:hover{
+    background-color: #3a91d8;
+}
